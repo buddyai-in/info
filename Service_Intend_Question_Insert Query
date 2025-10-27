@@ -1,0 +1,861 @@
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(138, 'Allow user to regularize the attendance of an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(139, 'Allow user to update the attendance details for an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(140, 'Allow user to submit a reason for regularizing an employee''s attendance.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(141, 'Allow user to add a remark for an employee''s attendance regularization.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(142, 'Allow user to record the in and out timings for an employee''s attendance.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(145, 'Offer interesting and informative facts related to cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(146, 'Provide details about different breeds of cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(147, 'Give insights into common behaviors exhibited by cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(148, 'Offer tips and advice on how to care for cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(149, 'Provide information on common health issues that affect cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(11, 'View the summary of leave taken.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(12, 'Update the leave summary with new information.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(13, 'Delete an existing leave summary.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(14, 'Add a new entry to the leave summary.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(154, 'Welcomes the user to the service.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(16, 'Submit a request for leave.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(17, 'Withdraw a previously submitted leave application.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(18, 'Make changes to an existing leave application.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(19, 'Check the status of a submitted leave application.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(20, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(155, 'Offers greetings or messages to the user.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(156, 'Displays a welcome message to the user.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(363, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(366, 'View the list of nature mapped to specific categories.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(367, 'View the list of nature mapped to specific subcategories.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(26, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(368, 'Map a specific nature to a designated category.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(28, 'View the weekly roster or shift details for employees.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(29, 'View the monthly roster or shift details for employees.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(30, 'View the yearly roster or shift details for employees.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(31, 'View shift name along with shift timings for employees.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(177, 'What is my shift today');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(35, 'Indicate the start and end dates for the leave period.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(36, 'Specify the duration of the leave requested.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(166, 'Retrieve data related to launches.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(32, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(103, 'View the detailed summary of different types of leave for an employee based on their employee code.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(167, 'Retrieve data about rockets.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(168, 'Retrieve information on rocket cores.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(169, 'Access data regarding capsules.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(170, 'Obtain details about Starlink.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(171, 'Access information on launchpads.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(172, 'Retrieve data about landing pads.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(102, 'Show my leave balance');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(174, 'Show pending approvals with me.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(106, 'View the entitled leave details for an employee based on their employee code.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(442, 'Access the user bucket to view pending approval records.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(440, 'Retrieve the list of records pending for approval based on the specified Approval Type parameter.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(192, 'Retrieve all policies related to leave applications for employees.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(144, 'Ask for the holiday list for a specific month.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(144, 'Holidays in this month');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(105, 'Check the status of pending leaves awaiting approval for an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(194, 'Determine if half day leaves are allowed under the employee''s leave policy.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(195, 'Find out if leaves can be carried forward to the next year according to the leave policy.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(57, 'Retrieve a list of all defined shift types from the shift type master.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(58, 'View detailed information for a specific shift type, including codes, names, and timings.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(59, 'Check which shift types are designated as week off shifts.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(60, 'Identify which shift types are categorized as special shifts.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(61, 'View breakshift timings associated with particular shift types.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(196, 'Understand the rules for future dated and back dated leave applications, including revocation policies.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(207, 'Display the count of approvals pending in the approver''s bucket, categorized by module.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(209, 'This intent allows the user to revoke an approved leave based on the mentioned date.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(267, 'Check the number of late mark days within the specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(211, 'This intent is for the user to confirm the revocation of the approved leave after specifying the date.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(217, 'Re-open a closed query using the provided query code.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(268, 'Check the number of early mark days within the specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(269, 'Check the number of regularised days within the specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(222, 'Retrieve the list of subcategories mapped under a specific category.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(223, 'View the subcategories associated with a chosen category.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(224, 'Explore all subcategories linked to a particular category.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(81, 'Retrieve the details of the attendance policy configured for the employee based on their attendance group.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(82, 'Inquire about the number of hours that qualify for half day and full day attendance.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(83, 'Ask for the total number of hours considered as present in the attendance policy.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(84, 'Request information on the hours that are counted as late marks in the attendance policy.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(85, 'Inquire about the grace period allowed in the attendance policy.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(86, 'Display the specified reports to the user.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(87, 'Download the specified reports for the user.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(225, 'Retrieve the list of nature mapped to specific categories and sub categories.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(227, 'Check if Comp Off rule is configured for Public Holiday, Working Day, and Weekly Off.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(228, 'Calculate the hours needed to work on Weekly Off for half day or full day Comp Off.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(229, 'Determine when Comp Off lapses if not taken within the specified days.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(230, 'View if Comp Off details are visible on the Leave Application.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(231, 'Check the maximum Comp Off that can be carried forward to the next year.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(232, 'Query the number of extra hours worked by an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(319, 'Approve a pending request based on employee name.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(369, 'Map a specific nature to a designated subcategory.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(150, 'Retrieve detailed information about a specific cat breed.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(91, 'Show all the policies that are uploaded in the system');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(92, 'View the policies that have been uploaded');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(93, 'List all policies present in the system');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(365, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(98, 'Retrieve the details of the OT balance.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(151, 'Provide a list of all available cat breeds.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(152, 'Compare characteristics of two or more cat breeds.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(153, 'Find a cat breed based on its name.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(374, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(208, 'Show a summary of pending approvals in the approver''s bucket by module.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(157, 'Send a greeting message using the API.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(158, 'Customize the content of the greeting message.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(159, 'Retrieve a greeting message from the API.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(160, 'Send the default hello message to the user.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(161, 'Display the default hello message to the user.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(112, 'Retrieve details including employee code, name, and designation for employees under a specified Reporting Manager.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(113, 'Retrieve details including employee code, name, and designation for employees under a specified Skip Level Manager.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(114, 'Retrieve details including employee code, name, and designation for employees under a specified Reporting MD.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(256, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(254, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(255, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(252, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(120, 'Initiate a new help desk query.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(121, 'Report an issue to the help desk.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(386, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(124, 'Retrieve the list of records pending for approval in the user bucket based on the Approval Type parameter.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(125, 'Provide the Approval Type parameter to filter the pending records.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(253, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(127, 'Retrieve the monthly payslip of an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(128, 'Retrieve the yearly payslip of an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(129, 'Retrieve the tax sheet of an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(387, 'Obtain a joke from the JokeAPI.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(135, 'View detailed information about a specific leave application.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(186, 'Retrieve DNS records for a given domain.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(187, 'Perform a DNS lookup for a specified domain.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(162, 'Modify the default hello message for future use.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(188, 'Query DNS information related to a specific domain.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(197, 'Query the details of the leave accrual policy including whether it accrues in advance or post.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(198, 'Ask about the number of days entitled or accrued for different periods (quarterly, monthly, yearly).');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(199, 'Inquire if leaves can be carried forward and if so, how many can be carried forward.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(200, 'Ask whether the leave policy applies to probation or confirmed employees.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(201, 'Query whether the leave can be encashed and if so, how many leaves can be encashed.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(202, 'View employee attendance details based on a specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(203, 'Check the number of late mark days within a specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(204, 'Check the number of early mark days within a specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(251, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(205, 'Check the number of regularised days within a specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(206, 'Check the number of week off days within a specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(212, 'Retrieve the list of queries raised including details such as the handler, TAT period, escalation details, and status.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(213, 'Check the status of a specific query, including whether it is open, closed, re-opened, or in-progress.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(214, 'Obtain information about who the query has been escalated to and the escalation levels.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(215, 'Get the creation date of a specific query.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(216, 'Find out who the resolver or handler of a specific query is.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(250, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(388, 'Obtain a joke from a specific category provided by the JokeAPI.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(270, 'Check the number of leave applied days within the specified date range.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(27, 'View the daily roster or shift details for employees.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(27, 'what is my shift today');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(266, 'View employee attendance details based on specified From Date and End Date.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(389, 'Obtain a joke of a specific type from the JokeAPI.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(390, 'Obtain a random joke from the JokeAPI.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(413, 'Perform a test action.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(414, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(281, 'Query the current price of a specific stock.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(240, 'What is my OT balance');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(185, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(282, 'Monitor the price changes of a specific stock over time.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(176, 'Show me Public Holidays');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(283, 'Compare the prices of two or more stocks.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(284, 'Retrieve historical price data for a specific stock.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(175, 'Show me this year holidays');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(286, 'Provide profile details of an employee including name, designation, division, department, and other relevant information.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(287, 'Identify the reporting manager, skip level manager, and reporting MD for an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(288, 'Display the employee''s grade and band information.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(418, 'Upload a file to the service.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(241, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(419, 'Replace an existing file with a new upload.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(184, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(165, 'Who I am');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(233, 'Query the OT eligibility hours for an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(234, 'Query how many OT hours have lapsed for an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(235, 'Query how many OT hours have been availed or used by an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(236, 'Query the remaining or balance OT hours for an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(237, 'Mark attendance by punching in based on GPS location.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(238, 'Mark attendance by punching out based on GPS location.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(257, 'View the details of Over Time configured for an employee based on the mapped attendance group.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(258, 'Check the policy regarding comp off laps, including after how many days and for how many hours half day/full day is considered.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(259, 'Query the maximum hours allowed in a day for Over Time.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(260, 'Inquire about how many back dated hours are considered for Over Time.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(261, 'Review the requirements for OT utilisation including pre/post request days allowed and minimum and maximum extra hours.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(262, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(263, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(38, 'Check if there are any employees with work anniversaries today.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(264, 'Download the policy based on the specified Policy name.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(370, 'Retrieve the list of queries raised along with details such as handler, TAT period, escalation details, and status.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(272, 'Obtain a fact about cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(273, 'Discover characteristics and traits of cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(371, 'Check the status of a specific query, including whether it is open, closed, re-opened, or in-progress.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(126, 'Access the user bucket to see all records pending for approval.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(372, 'Obtain information about the escalation levels for a query, including who is at escalation level 1 and 2.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(274, 'Gain insight into typical behaviors of cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(275, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(279, 'Provide the stock price as requested.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(280, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(373, 'Find out the creation date of a specific query.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(285, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(289, 'Share the join date of an employee within the company.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(248, 'Re-open a closed query using the provided query code.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(118, 'Provide the join date of the employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(119, 'Provide the reporting manager of the employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(290, 'Disclose the cost center associated with an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(116, 'Provide the designation of the employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(117, 'Provide the department of the employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(378, 'Re-open the closed query based on the provided query code.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(291, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(293, 'View the detailed summary of all leave types available to an employee, categorized by leave type.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(295, 'List all available types of leave that can be taken by an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(296, 'Request approval for a specific type of leave based on the employee code.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(292, 'Check the leave balance summary');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(292, ' including entitled');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(292, ' carry forward');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(292, ' pending for approval');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(292, ' availed');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(292, ' and balance leaves for an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(294, 'Query the status of pending leave requests for an employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(297, 'View the monthly payslip of any employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(298, 'View the yearly payslip of any employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(299, 'View the tax sheet of any employee.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(302, 'Set the start date for the leave period.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(303, 'Set the end date for the leave period.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(304, 'Specify the total duration of the leave.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(383, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(384, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(385, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(385, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(315, 'Search for pending requests by employee name.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(396, 'Generate a new authentication token.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(322, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(323, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(324, 'Allows the user to submit a request for leave.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(397, 'Check if the provided token is valid.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(398, 'Invalidate an existing authentication token.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(327, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(37, 'Retrieve the list of employees who have a work anniversary on the current date.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(328, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(329, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(399, 'Obtain a new token using a refresh token.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(330, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(331, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(332, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(333, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(334, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(335, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(336, 'Retrieve the list of records pending for approval in the user bucket based on the Approval Type parameter.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(338, 'Access the user bucket to see the records awaiting approval.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(339, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(348, 'Retrieve the list of records pending for approval in the user bucket based on the Approval Type parameter.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(349, 'Specify the Approval Type parameter to filter the pending approval records.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(350, 'Access the user bucket containing records pending for approval.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(351, 'View the daily shift details including shift name and timings.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(352, 'View the weekly shift details including shift name and timings.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(353, 'View the monthly shift details including shift name and timings.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(354, 'View the yearly shift details including shift name and timings.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(355, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(357, 'Allows the user to submit a leave application.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(358, 'Enables the user to modify an existing leave application.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(359, 'Allows the user to withdraw a previously submitted leave application.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(313, 'Approve a pending request based on the employee name.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(360, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(219, 'Retrieve the list of categories configured in Help Desk.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(221, 'Search for specific categories within the Help Desk configuration.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(407, 'Generate a comprehensive report for a specific client using their client ID.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(410, 'Download the comprehensive report for a specific client.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(411, 'Search for a video using its name');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(412, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(420, 'Delete an uploaded file from the service.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(421, 'List all files that have been uploaded to the service.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(423, 'Retrieve a random fact about cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(424, 'Explore interesting and informative facts regarding cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(425, 'Find out various facts related to cats.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(426, 'This intent allows users to generate a new token.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(427, 'This intent allows the user to initiate the process of generating a token.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(428, 'This intent allows the user to formally request the generation of a token.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(429, 'This intent allows the user to start the creation of a new token.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(220, 'Access detailed information about a specific category in Help Desk.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(430, '');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(381, 'todays birthday');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(382, 'View the names of employees whose birthday falls on today''s date.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(380, 'Retrieve the list of employees who have a birthday on the current date.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(132, 'Filter leaves based on their status such as approved');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(132, ' rejected');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(132, ' revoked');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(132, ' and others.');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(131, 'View the list of leaves with details such as leave type');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(131, ' applied date');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(131, ' start date');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(131, ' end date');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(131, ' applied days');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(131, ' leave reason');
+INSERT INTO uat.service_intent_questions
+(service_intent_id, question)
+VALUES(131, ' and leave status.');

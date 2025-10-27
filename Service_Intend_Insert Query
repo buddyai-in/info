@@ -1,0 +1,632 @@
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(204, '2025-08-04 06:10:59.133', NULL, '2025-08-04 06:10:59.133', NULL, 3, 'check_early_mark_days', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(248, NULL, NULL, '2025-08-05 06:42:29.612', NULL, 3, 'reopen_closed_query', NULL, NULL, NULL, NULL, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(205, '2025-08-04 06:10:59.137', NULL, '2025-08-04 06:10:59.137', NULL, 3, 'check_regularised_days', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(206, '2025-08-04 06:10:59.142', NULL, '2025-08-04 06:10:59.142', NULL, 3, 'check_week_off_days', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(202, '2025-08-04 06:10:59.115', NULL, '2025-08-04 06:10:59.115', NULL, 3, 'view_attendance_details', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(336, '2025-08-14 13:34:55.612', NULL, '2025-08-14 13:34:55.612', NULL, 3, 'list_pending_records', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(338, '2025-08-14 13:34:55.628', NULL, '2025-08-14 13:34:55.628', NULL, 3, 'view_user_bucket', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(414, '2025-09-03 12:29:28.192', NULL, '2025-09-03 12:29:28.192', NULL, 3, 'mark_my_attendance', NULL, 'SERVICE', NULL, 60, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(102, NULL, NULL, '2025-08-05 11:18:59.857', NULL, 3, 'check_leave_balance', NULL, NULL, NULL, 26, 'Your Leave Balance is as follows:
+{{#each data}}
+
+ Leave Type: {{LEAVETYPENAME}}
+  Balance Leaves: {{BALANCE_LEAVES}}
+--------------------------------- 
+{{/each}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(430, NULL, NULL, '2025-09-08 10:48:29.814', NULL, 3, 'show_my_leave_balance', NULL, NULL, NULL, 26, 'Your Leave Balance is as follows:
+{{#each data}}
+
+ Leave Type: {{LEAVETYPENAME}}
+  Balance Leaves: {{BALANCE_LEAVES}}
+--------------------------------- 
+{{/each}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(103, NULL, NULL, '2025-08-05 11:16:22.681', NULL, 3, 'view_leave_summary', NULL, NULL, NULL, 26, 'Your Leave Summary is as follows:
+{{#each data}}
+
+ Leave Type: {{LEAVETYPENAME}}
+ Carry forwarded Leaves: {{CARRYFORWARDED_LEAVES}}
+ Entitled Leaves: {{ENTITLED_LEAVES}}
+ Consumed Leaves: {{CONSUMED_LEAVES}}
+ Future Leaves: {{FUTURE_LEAVES}}
+ Balance Leaves: {{BALANCE_LEAVES}}
+ Pending Leaves: {{PENDING_LEAVES}}
+--------------------------------- 
+{{/each}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(105, NULL, NULL, '2025-08-05 11:26:58.152', NULL, 3, 'check_pending_leaves', NULL, NULL, NULL, 26, 'Below are the list of leaves which are pending for approval:
+{{#each data}}
+  Leave Type: {{LEAVETYPENAME}}
+  Pending for approval: {{PENDING_LEAVES}}
+----------------------------------
+{{/each}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(442, NULL, NULL, '2025-09-16 10:10:23.833', NULL, 3, 'access_user_bucket', NULL, NULL, NULL, 108, '
+{{#each data}}
+  TRANSACTION ID : {{TRANSACTION_ID}}
+{{/each}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(440, NULL, NULL, '2025-09-16 10:12:55.278', NULL, 3, 'list_pending_approvals', NULL, NULL, NULL, 108, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(236, '2025-08-04 07:32:48.461', NULL, '2025-08-04 07:32:48.461', NULL, 3, 'check_balance_ot_hours', NULL, 'SERVICE', NULL, 59, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(235, '2025-08-04 07:32:48.456', NULL, '2025-08-04 07:32:48.456', NULL, 3, 'check_availed_ot_hours', NULL, 'SERVICE', NULL, 59, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(128, '2025-07-29 12:35:32.899', NULL, '2025-07-29 12:35:32.899', NULL, 3, 'yearly_payslip', NULL, 'SERVICE', NULL, 32, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(127, '2025-07-29 12:35:32.876', NULL, '2025-07-29 12:35:32.876', NULL, 3, 'monthly_payslip', NULL, 'SERVICE', NULL, 32, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(129, '2025-07-29 12:35:32.905', NULL, '2025-07-29 12:35:32.905', NULL, 3, 'tax_sheet', NULL, 'SERVICE', NULL, 32, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(264, '2025-08-06 04:51:00.195', NULL, '2025-08-06 04:51:00.195', NULL, 3, 'download_policy', NULL, 'SERVICE', NULL, 64, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(222, '2025-08-04 07:13:28.541', NULL, '2025-08-04 07:13:28.541', NULL, 3, 'list_sub_categories', NULL, 'SERVICE', NULL, 56, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(224, '2025-08-04 07:13:28.561', NULL, '2025-08-04 07:13:28.561', NULL, 3, 'explore_sub_categories', NULL, 'SERVICE', NULL, 56, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(223, '2025-08-04 07:13:28.553', NULL, '2025-08-04 07:13:28.553', NULL, 3, 'view_sub_categories', NULL, 'SERVICE', NULL, 56, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(138, '2025-07-29 17:16:16.509', NULL, '2025-07-29 17:16:16.509', NULL, 3, 'regularize_attendance', NULL, 'SERVICE', NULL, 35, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(217, '2025-08-04 07:07:32.686', NULL, '2025-08-04 07:07:32.686', NULL, 3, 'reopen_closed_query', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(142, '2025-07-29 17:16:16.538', NULL, '2025-07-29 17:16:16.538', NULL, 3, 'record_in_out_timings', NULL, 'SERVICE', NULL, 35, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(140, '2025-07-29 17:16:16.527', NULL, '2025-07-29 17:16:16.527', NULL, 3, 'submit_regularization_reason', NULL, 'SERVICE', NULL, 35, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(36, '2025-07-28 17:11:06.821', NULL, '2025-07-28 17:11:06.821', NULL, 3, 'define_leave_duration', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(139, '2025-07-29 17:16:16.520', NULL, '2025-07-29 17:16:16.520', NULL, 3, 'update_attendance', NULL, 'SERVICE', NULL, 35, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(141, '2025-07-29 17:16:16.532', NULL, '2025-07-29 17:16:16.532', NULL, 3, 'add_attendance_remark', NULL, 'SERVICE', NULL, 35, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(185, '2025-08-01 13:22:53.356', NULL, '2025-08-01 13:22:53.356', NULL, 3, 'my_team_details', NULL, 'SERVICE', NULL, 28, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(114, '2025-07-29 10:55:52.486', NULL, '2025-07-29 10:55:52.486', NULL, 3, 'get_reporting_md_details', NULL, 'SERVICE', NULL, 28, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(112, '2025-07-29 10:55:52.475', NULL, '2025-07-29 10:55:52.475', NULL, 3, 'get_employee_details', NULL, 'SERVICE', NULL, 28, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(113, '2025-07-29 10:55:52.481', NULL, '2025-07-29 10:55:52.481', NULL, 3, 'get_skip_level_manager_details', NULL, 'SERVICE', NULL, 28, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(200, '2025-08-04 06:05:21.428', NULL, '2025-08-04 06:05:21.428', NULL, 3, 'check_probation_employee_policy', NULL, 'SERVICE', NULL, 49, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(199, '2025-08-04 06:05:21.422', NULL, '2025-08-04 06:05:21.422', NULL, 3, 'ask_carry_forward_leaves', NULL, 'SERVICE', NULL, 49, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(197, '2025-08-04 06:05:21.408', NULL, '2025-08-04 06:05:21.408', NULL, 3, 'check_leave_accrual_policy', NULL, 'SERVICE', NULL, 49, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(201, '2025-08-04 06:05:21.433', NULL, '2025-08-04 06:05:21.433', NULL, 3, 'inquire_encashment_policy', NULL, 'SERVICE', NULL, 49, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(198, '2025-08-04 06:05:21.418', NULL, '2025-08-04 06:05:21.418', NULL, 3, 'inquire_entitlement_days', NULL, 'SERVICE', NULL, 49, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(374, NULL, NULL, '2025-08-19 09:11:40.902', NULL, 3, 'apply_sick_leave_tomorrow', NULL, NULL, NULL, 79, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(324, '2025-08-12 06:36:29.543', NULL, '2025-08-12 06:36:29.543', NULL, 3, 'apply_leave', NULL, 'SERVICE', NULL, 79, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(421, '2025-09-04 09:42:45.629', NULL, '2025-09-04 09:42:45.629', NULL, 3, 'list_uploaded_files', NULL, 'SERVICE', NULL, 101, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(418, '2025-09-04 09:42:45.599', NULL, '2025-09-04 09:42:45.599', NULL, 3, 'upload_file', NULL, 'SERVICE', NULL, 101, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(419, '2025-09-04 09:42:45.615', NULL, '2025-09-04 09:42:45.615', NULL, 3, 'replace_file', NULL, 'SERVICE', NULL, 101, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(98, '2025-07-29 01:08:57.142', NULL, '2025-07-29 01:08:57.142', NULL, 3, 'ot_balance_details', NULL, 'SERVICE', NULL, 24, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(132, NULL, NULL, '2025-09-16 10:49:27.779', NULL, 3, 'leave_status', NULL, NULL, NULL, 33, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(135, '2025-07-29 17:09:37.132', NULL, '2025-07-29 17:09:37.132', NULL, 3, 'view_leave_details', NULL, 'SERVICE', NULL, 33, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(131, NULL, NULL, '2025-09-16 11:25:53.016', NULL, 3, 'view_leaves', NULL, NULL, NULL, 33, '{{#each data}}
+Leave Type     : {{LEAVETYPENAME}}
+Applied Date   : {{APP_DATE}}
+Start Date     : {{START_DATE}}
+End Date       : {{END_DATE}}
+No. of Days    : {{APPLIED_DAYS}}
+Status         :  {{LEAVE_STATUS_NAME}}
+Application Id :{{LEAVE_APPLICATION_ID}}
+{{/each}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(384, '2025-08-22 09:52:57.015', NULL, '2025-08-22 09:52:57.015', NULL, 3, 'approve_all_pending_request', NULL, 'SERVICE', NULL, 78, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(365, NULL, NULL, '2025-08-19 06:44:33.339', NULL, 3, 'approve_leave_pending_request', NULL, NULL, NULL, 78, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(385, '2025-08-22 09:53:16.908', NULL, '2025-08-22 09:53:16.908', NULL, 3, 'reject_all_pending_approval_request', NULL, 'SERVICE', NULL, 78, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(319, NULL, NULL, '2025-08-16 16:12:24.169', NULL, 3, 'approve_leave_request', NULL, NULL, NULL, 78, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(386, '2025-08-22 09:57:42.179', NULL, '2025-08-22 09:57:42.179', NULL, 3, 'reject_leave_request', NULL, 'SERVICE', NULL, 78, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(383, '2025-08-22 09:52:39.782', NULL, '2025-08-22 09:52:39.782', NULL, 3, 'reject_pending_approval_request', NULL, 'SERVICE', NULL, 78, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(412, '2025-09-02 03:07:33.671', NULL, '2025-09-02 03:07:33.671', NULL, 3, 'provide_video', NULL, 'SERVICE', NULL, 98, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(411, '2025-09-02 03:06:32.869', NULL, '2025-09-02 03:06:32.869', NULL, 3, 'search_video_by_name', NULL, 'SERVICE', NULL, 98, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(259, '2025-08-05 10:53:55.430', NULL, '2025-08-05 10:53:55.430', NULL, 3, 'query_max_hours_per_day', NULL, 'SERVICE', NULL, 63, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(257, '2025-08-05 10:53:55.405', NULL, '2025-08-05 10:53:55.405', NULL, 3, 'view_over_time_details', NULL, 'SERVICE', NULL, 63, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(262, '2025-08-05 10:55:08.082', NULL, '2025-08-05 10:55:08.082', NULL, 3, 'attendance_ot_policy', NULL, 'SERVICE', NULL, 63, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(261, '2025-08-05 10:53:55.445', NULL, '2025-08-05 10:53:55.445', NULL, 3, 'review_ot_utilisation_requirements', NULL, 'SERVICE', NULL, 63, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(258, '2025-08-05 10:53:55.423', NULL, '2025-08-05 10:53:55.423', NULL, 3, 'check_comp_off_policy', NULL, 'SERVICE', NULL, 63, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(260, '2025-08-05 10:53:55.438', NULL, '2025-08-05 10:53:55.438', NULL, 3, 'inquire_back_dated_hours', NULL, 'SERVICE', NULL, 63, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(332, NULL, NULL, '2025-08-14 13:22:17.703', NULL, 3, 'show_shift_details_date', NULL, NULL, NULL, 6, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(29, '2025-07-28 17:07:02.656', NULL, '2025-07-28 17:07:02.656', NULL, 3, 'view_monthly_roster', NULL, 'SERVICE', NULL, 6, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(31, '2025-07-28 17:07:02.685', NULL, '2025-07-28 17:07:02.685', NULL, 3, 'view_shift_details', NULL, 'SERVICE', NULL, 6, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(27, '2025-07-28 17:07:02.635', NULL, '2025-07-28 17:07:02.635', NULL, 3, 'view_daily_roster', NULL, 'SERVICE', NULL, 6, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(30, '2025-07-28 17:07:02.675', NULL, '2025-07-28 17:07:02.675', NULL, 3, 'view_yearly_roster', NULL, 'SERVICE', NULL, 6, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(177, NULL, NULL, '2025-08-19 05:43:49.173', NULL, 3, 'view_daily_shift', NULL, NULL, NULL, 6, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(28, '2025-07-28 17:07:02.650', NULL, '2025-07-28 17:07:02.650', NULL, 3, 'view_weekly_roster', NULL, 'SERVICE', NULL, 6, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(331, '2025-08-14 10:06:04.996', NULL, '2025-08-14 10:06:04.996', NULL, 3, 'check_for_week_off', NULL, 'SERVICE', NULL, 6, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(378, '2025-08-20 13:23:08.237', NULL, '2025-08-20 13:23:08.237', NULL, 3, 'reopen_closed_query', NULL, 'SERVICE', NULL, 89, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(328, '2025-08-14 09:54:41.134', NULL, '2025-08-14 09:54:41.134', NULL, 3, 'check_afternoon_shift', NULL, 'SERVICE', NULL, 13, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(329, '2025-08-14 09:54:57.596', NULL, '2025-08-14 09:54:57.596', NULL, 3, 'check_night_shift', NULL, 'SERVICE', NULL, 13, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(60, '2025-07-28 17:42:13.506', NULL, '2025-07-28 17:42:13.506', NULL, 3, 'check_special_shift', NULL, 'SERVICE', NULL, 13, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(330, NULL, NULL, '2025-08-14 10:01:22.031', NULL, 3, 'details_of_general_shift', NULL, NULL, NULL, 13, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(252, NULL, NULL, '2025-08-05 09:34:37.970', NULL, 3, 'employee_band', NULL, NULL, NULL, 29, 'You belong to Band {{data.BAND_NAME}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(119, NULL, NULL, '2025-08-05 07:44:51.388', NULL, 3, 'tell_employee_reporting_manager', NULL, NULL, NULL, 29, 'You Reporting Manager is {{data.REPORTING_MANAGER}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(254, NULL, NULL, '2025-08-05 09:34:15.405', NULL, 3, 'employee_cost_center', NULL, NULL, NULL, 29, 'Your cost center is categorized as {{data.COST_CENTER_DESC}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(253, NULL, NULL, '2025-08-05 09:34:49.482', NULL, 3, 'employee_grade', NULL, NULL, NULL, 29, 'You are mapped to Grade {{data.GRADE_NAME}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(117, NULL, NULL, '2025-08-05 09:13:16.452', NULL, 3, 'tell_employee_department', NULL, NULL, NULL, 29, 'You work in the {{data.Department}} department.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(251, NULL, NULL, '2025-08-05 09:35:01.561', NULL, 3, 'employee_skip_level_manager', NULL, NULL, NULL, 29, '{{data.SKIP_LEVEL_MANAGER}} is your Skip Level Manager.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(250, NULL, NULL, '2025-08-05 09:35:13.980', NULL, 3, 'employee_reporting_md', NULL, NULL, NULL, 29, 'Your reporting Managing Director (MD) is {{data.REPORTING_MD}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(256, NULL, NULL, '2025-08-05 09:34:04.136', NULL, 3, 'employee_branch', NULL, NULL, NULL, 29, 'You work at the {{data.BRANCH_NAME}} branch.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(118, NULL, NULL, '2025-08-05 07:28:05.845', NULL, 3, 'tell_employee_join_date', NULL, NULL, NULL, 29, 'You have joined the company on {{data.JoinDate}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(116, NULL, NULL, '2025-08-05 07:49:06.681', NULL, 3, 'tell_employee_designation', NULL, NULL, NULL, 29, 'You hold the Position of {{data.DesignationName}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(255, NULL, NULL, '2025-08-05 09:34:24.850', NULL, 3, 'employee_division', NULL, NULL, NULL, 29, 'You are part of the {{data.DIVISION_NAME}} division.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(203, '2025-08-04 06:10:59.125', NULL, '2025-08-04 06:10:59.125', NULL, 3, 'check_late_mark_days', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(174, '2025-07-31 07:44:19.995', NULL, '2025-07-31 07:44:19.995', NULL, 3, 'Show_Pending_Approvals', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(124, '2025-07-29 11:25:51.646', NULL, '2025-07-29 11:25:51.646', NULL, 3, 'list_pending_records', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(125, '2025-07-29 11:25:51.663', NULL, '2025-07-29 11:25:51.663', NULL, 3, 'specify_approval_type', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(106, NULL, NULL, '2025-08-05 11:22:33.536', NULL, 3, 'view_entitled_leaves', NULL, NULL, NULL, 26, 'Your Entitled Leave is as follows:
+{{#each data}}
+
+ Leave Type: {{LEAVETYPENAME}}
+  Entitled Leaves: {{ENTITLED_LEAVES}}
+--------------------------------- 
+{{/each}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(232, '2025-08-04 07:32:48.430', NULL, '2025-08-04 07:32:48.430', NULL, 3, 'check_extra_hours_worked', NULL, 'SERVICE', NULL, 59, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(234, '2025-08-04 07:32:48.450', NULL, '2025-08-04 07:32:48.450', NULL, 3, 'check_lapsed_ot_hours', NULL, 'SERVICE', NULL, 59, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(233, '2025-08-04 07:32:48.440', NULL, '2025-08-04 07:32:48.440', NULL, 3, 'check_ot_eligibility_hours', NULL, 'SERVICE', NULL, 59, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(228, '2025-08-04 07:29:10.761', NULL, '2025-08-04 07:29:10.761', NULL, 3, 'calculate_comp_off_hours', NULL, 'SERVICE', NULL, 58, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(229, '2025-08-04 07:29:10.767', NULL, '2025-08-04 07:29:10.767', NULL, 3, 'determine_comp_off_lap', NULL, 'SERVICE', NULL, 58, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(230, '2025-08-04 07:29:10.774', NULL, '2025-08-04 07:29:10.774', NULL, 3, 'view_comp_off_details', NULL, 'SERVICE', NULL, 58, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(231, '2025-08-04 07:29:10.780', NULL, '2025-08-04 07:29:10.780', NULL, 3, 'check_max_comp_off_carry_forward', NULL, 'SERVICE', NULL, 58, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(227, '2025-08-04 07:29:10.748', NULL, '2025-08-04 07:29:10.748', NULL, 3, 'check_comp_off_rule', NULL, 'SERVICE', NULL, 58, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(92, '2025-07-29 01:04:45.903', NULL, '2025-07-29 01:04:45.903', NULL, 3, 'view_uploaded_policies', NULL, 'SERVICE', NULL, 22, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(91, '2025-07-29 01:04:45.874', NULL, '2025-07-29 01:04:45.874', NULL, 3, 'display_all_policies', NULL, 'SERVICE', NULL, 22, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(93, '2025-07-29 01:04:45.914', NULL, '2025-07-29 01:04:45.914', NULL, 3, 'list_policies', NULL, 'SERVICE', NULL, 22, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(38, NULL, NULL, '2025-08-04 09:26:06.379', NULL, 3, 'check_work_anniversary', NULL, NULL, NULL, 8, '{{#if count(data) = 0 }}
+There are no work anniversaries to celebrate today.
+{{/if}}
+{{#if count(data) > 0 }}
+Below are the members who are having Work Anniversaries today:
+   {{#each data}}
+Name: {{EMP_NAME}}
+Department: {{DEPARTMENT_NAME}}
+Service Year: {{EXPERIENCE}}
+{{/each}}
+{{/if}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(37, NULL, NULL, '2025-08-14 07:51:27.250', NULL, 3, 'list_employees_with_anniversary', NULL, NULL, NULL, 8, '{{#if count(data) = 0 }}
+There are no work anniversaries to celebrate today.
+{{/if}}
+{{#if data) = null }}
+There are no work anniversaries to celebrate today.
+{{/if}}
+{{#if count(data) > 0 }}
+Below are the members who are having Work Anniversaries today:
+   {{#each data}}
+Name: {{EMP_NAME}}
+Department: {{DEPARTMENT_NAME}}
+Service Year: {{EXPERIENCE}}
+{{/each}}
+{{/if}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(240, NULL, NULL, '2025-08-04 12:38:55.296', NULL, 3, 'my_ot_balance', NULL, NULL, NULL, 24, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(35, '2025-07-28 17:11:06.816', NULL, '2025-07-28 17:11:06.816', NULL, 3, 'set_leave_dates', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(207, '2025-08-04 06:17:19.911', NULL, '2025-08-04 06:17:19.911', NULL, 3, 'display_module_wise_approval_count', NULL, 'SERVICE', NULL, NULL, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(220, NULL, NULL, '2025-09-16 10:26:21.214', NULL, 3, 'view_category_details', NULL, NULL, NULL, 55, '{{#if count(data) = 0 }}You are not mapped to any category.{{/if}}
+{{#if count(data) >0 }}
+  The available categories are:
+ {{#each data}} 
+    {{Name}}
+{{/each}}
+{{/if}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(219, NULL, NULL, '2025-09-16 10:27:24.540', NULL, 3, 'list_categories', NULL, NULL, NULL, 55, '{{#if count(data) = 0 }}You are not mapped to any category.{{/if}}
+{{#if count(data) >0 }}
+  The available categories are:
+ {{#each data}} 
+    {{Name}}
+{{/each}}
+{{/if}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(221, NULL, NULL, '2025-09-16 10:27:33.946', NULL, 3, 'search_categories', NULL, NULL, NULL, 55, '{{#if count(data) = 0 }}You are not mapped to any category.{{/if}}
+{{#if count(data) >0 }}
+  The available categories are:
+ {{#each data}} 
+    {{Name}}
+{{/each}}
+{{/if}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(322, '2025-08-11 17:56:00.161', NULL, '2025-08-11 17:56:00.161', NULL, 3, 'view_leave_application_policy', NULL, 'SERVICE', NULL, 48, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(323, '2025-08-11 17:56:23.316', NULL, '2025-08-11 17:56:23.316', NULL, 3, 'get_leave_application_policy', NULL, 'SERVICE', NULL, 48, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(195, '2025-08-04 05:56:41.610', NULL, '2025-08-04 05:56:41.610', NULL, 3, 'check_leave_carry_forward', NULL, 'SERVICE', NULL, 48, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(381, NULL, NULL, '2025-09-09 05:06:02.537', NULL, 3, 'todays_birthday', NULL, NULL, NULL, 90, '{{#if count(data) = 0 }}There is no Birthday to celebrate today.{{/if}}
+{{#if count(data) >0 }}
+  Below are the members who are having birthday today:
+ {{#each data}} 
+Name: {{EMP_NAME}}
+Department: {{DEPARTMENT_NAME}} 
+{{/each}}
+{{/if}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(382, NULL, NULL, '2025-09-09 05:06:15.616', NULL, 3, 'view_birthdays_today', NULL, NULL, NULL, 90, '{{#if count(data) = 0 }}There is no Birthday to celebrate today.{{/if}}
+{{#if count(data) >0 }}
+  Below are the members who are having birthday today:
+ {{#each data}} 
+Name: {{EMP_NAME}}
+Department: {{DEPARTMENT_NAME}} 
+{{/each}}
+{{/if}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(380, NULL, NULL, '2025-09-09 05:06:30.233', NULL, 3, 'list_employees_with_birthday', NULL, NULL, NULL, 90, '{{#if count(data) = 0 }}There is no Birthday to celebrate today.{{/if}}
+{{#if count(data) >0 }}
+  Below are the members who are having birthday today:
+ {{#each data}} 
+Name: {{EMP_NAME}}
+Department: {{DEPARTMENT_NAME}} 
+{{/each}}
+{{/if}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(61, '2025-07-28 17:42:13.513', NULL, '2025-07-28 17:42:13.513', NULL, 3, 'view_breakshift_timings', NULL, 'SERVICE', NULL, 13, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(58, '2025-07-28 17:42:13.496', NULL, '2025-07-28 17:42:13.496', NULL, 3, 'view_shift_details', NULL, 'SERVICE', NULL, 13, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(59, '2025-07-28 17:42:13.501', NULL, '2025-07-28 17:42:13.501', NULL, 3, 'check_week_off_shift', NULL, 'SERVICE', NULL, 13, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(57, '2025-07-28 17:42:13.473', NULL, '2025-07-28 17:42:13.473', NULL, 3, 'list_shift_types', NULL, 'SERVICE', NULL, 13, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(126, NULL, NULL, '2025-08-05 05:03:11.358', NULL, 3, 'view_pending_approvals_in_user_bucket', NULL, NULL, NULL, NULL, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(208, NULL, NULL, '2025-09-16 09:46:16.202', NULL, 3, 'show_pending_approvals_summary', NULL, NULL, NULL, 51, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(86, '2025-07-29 00:56:56.742', NULL, '2025-07-29 00:56:56.742', NULL, 3, 'display_report', NULL, 'SERVICE', NULL, 20, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(87, '2025-07-29 00:56:56.758', NULL, '2025-07-29 00:56:56.758', NULL, 3, 'download_report', NULL, 'SERVICE', NULL, 20, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(335, '2025-08-14 13:30:56.372', NULL, '2025-08-14 13:30:56.372', NULL, 3, 'show_next_coming_holiday', NULL, 'SERVICE', NULL, 36, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(144, NULL, NULL, '2025-08-01 07:17:09.162', NULL, 3, 'request_specific_month_holiday_list', NULL, NULL, NULL, 36, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(175, NULL, NULL, '2025-08-04 13:04:16.399', NULL, 3, 'Show_available_Holidays', NULL, NULL, NULL, 36, 'Below are the list of Holidays:
+{{#each data}}
+  Name: {{HolidayName}}
+  Date: {{HolidayDate}}
+  Type: {{HolidayTypeName}}
+{{/each}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(176, NULL, NULL, '2025-08-04 13:01:27.764', NULL, 3, 'Show_Public_Holidays', NULL, NULL, NULL, 36, 'Below are the Public Holidays:
+{{#each data}}
+{{#if HolidayTypeName = "Public Holiday"}}
+       Name: {{HolidayName}}
+       Date: {{HolidayDate}}
+  {{/if}}
+{{/each}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(241, NULL, NULL, '2025-08-04 13:10:18.546', NULL, 3, 'Show_Optional_Holidays', NULL, NULL, NULL, 36, 'Below are the Optional Holidays: {{#each data}} 
+{{#if HolidayTypeName = "Optional Holiday"}} 
+Name: {{HolidayName}} 
+Date: {{HolidayDate}} 
+{{/if}} 
+{{/each}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(213, '2025-08-04 06:31:04.913', NULL, '2025-08-04 06:31:04.913', NULL, 3, 'query_status', NULL, 'SERVICE', NULL, 53, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(214, '2025-08-04 06:31:04.919', NULL, '2025-08-04 06:31:04.919', NULL, 3, 'escalation_details', NULL, 'SERVICE', NULL, 53, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(215, '2025-08-04 06:31:04.926', NULL, '2025-08-04 06:31:04.926', NULL, 3, 'query_creation_date', NULL, 'SERVICE', NULL, 53, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(212, '2025-08-04 06:31:04.905', NULL, '2025-08-04 06:31:04.905', NULL, 3, 'list_queries', NULL, 'SERVICE', NULL, 53, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(216, '2025-08-04 06:31:04.932', NULL, '2025-08-04 06:31:04.932', NULL, 3, 'query_handler_info', NULL, 'SERVICE', NULL, 53, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(196, '2025-08-04 05:56:41.616', NULL, '2025-08-04 05:56:41.616', NULL, 3, 'inquire_leave_application_rules', NULL, 'SERVICE', NULL, 48, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(194, '2025-08-04 05:56:41.604', NULL, '2025-08-04 05:56:41.604', NULL, 3, 'check_half_day_leave', NULL, 'SERVICE', NULL, 48, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(192, '2025-08-04 05:56:41.588', NULL, '2025-08-04 05:56:41.588', NULL, 3, 'view_leave_policies', NULL, 'SERVICE', NULL, 48, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(429, '2025-09-07 08:19:13.196', NULL, '2025-09-07 08:19:13.196', NULL, 3, 'initiate_token_creation', NULL, 'SERVICE', NULL, 105, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(428, '2025-09-07 08:19:13.186', NULL, '2025-09-07 08:19:13.186', NULL, 3, 'request_token_generation', NULL, 'SERVICE', NULL, 105, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(427, '2025-09-07 08:19:13.176', NULL, '2025-09-07 08:19:13.176', NULL, 3, 'generate_token', NULL, 'SERVICE', NULL, 105, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(420, '2025-09-04 09:42:45.623', NULL, '2025-09-04 09:42:45.623', NULL, 3, 'delete_file', NULL, 'SERVICE', NULL, 101, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(334, '2025-08-14 13:29:17.747', NULL, '2025-08-14 13:29:17.747', NULL, 3, 'show_attendance_status_for_month', NULL, 'SERVICE', NULL, 65, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(268, '2025-08-06 05:05:51.446', NULL, '2025-08-06 05:05:51.446', NULL, 3, 'check_early_mark_days', NULL, 'SERVICE', NULL, 65, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(269, '2025-08-06 05:05:51.452', NULL, '2025-08-06 05:05:51.452', NULL, 3, 'check_regularised_days', NULL, 'SERVICE', NULL, 65, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(270, '2025-08-06 05:05:51.457', NULL, '2025-08-06 05:05:51.457', NULL, 3, 'check_leave_applied_days', NULL, 'SERVICE', NULL, 65, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(271, '2025-08-06 05:07:01.900', NULL, '2025-08-06 05:07:01.900', NULL, 3, 'view_attendance_summary', NULL, 'SERVICE', NULL, 65, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(266, NULL, NULL, '2025-08-06 05:08:54.058', NULL, 3, 'view_attendance_details', NULL, NULL, NULL, 65, '
+{{#each data}}
+  Attandance_Days: {{Attandance_Days}}
+{{/each}}
+');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(165, NULL, NULL, '2025-08-05 07:23:30.997', NULL, 3, 'tell_employee_self_details', NULL, NULL, NULL, 29, 'You are {{data.EmployeeName}}, working as a {{data.DesignationName}} in the {{data.Department}} department of the {{data.DIVISION_NAME}} division at the {{data.BRANCH_NAME}} branch of {{data.COMP_NAME}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(184, NULL, NULL, '2025-08-05 07:23:06.801', NULL, 3, 'who_i_am', NULL, NULL, NULL, 29, 'You are {{data.EmployeeName}}, working as a {{data.DesignationName}} in the {{data.Department}} department of the {{data.DIVISION_NAME}} division at the {{data.BRANCH_NAME}} branch of {{data.COMP_NAME}}.');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(267, '2025-08-06 05:05:51.440', NULL, '2025-08-06 05:05:51.440', NULL, 3, 'check_late_mark_days', NULL, 'SERVICE', NULL, 65, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(333, '2025-08-14 13:25:05.543', NULL, '2025-08-14 13:25:05.543', NULL, 3, 'check_attendance_status', NULL, 'SERVICE', NULL, 65, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(238, '2025-08-04 07:39:14.097', NULL, '2025-08-04 07:39:14.097', NULL, 3, 'punch_out', NULL, 'SERVICE', NULL, 60, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(237, '2025-08-04 07:39:14.082', NULL, '2025-08-04 07:39:14.082', NULL, 3, 'punch_in', NULL, 'SERVICE', NULL, 60, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(225, NULL, NULL, '2025-08-04 07:19:51.717', NULL, 3, 'list_nature', NULL, NULL, NULL, 57, '');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(83, '2025-07-29 00:54:33.813', NULL, '2025-07-29 00:54:33.813', NULL, 3, 'query_present_hours', NULL, 'SERVICE', NULL, 19, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(84, '2025-07-29 00:54:33.822', NULL, '2025-07-29 00:54:33.822', NULL, 3, 'find_late_mark_hours', NULL, 'SERVICE', NULL, 19, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(85, '2025-07-29 00:54:33.828', NULL, '2025-07-29 00:54:33.828', NULL, 3, 'check_grace_period', NULL, 'SERVICE', NULL, 19, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(81, '2025-07-29 00:54:33.794', NULL, '2025-07-29 00:54:33.794', NULL, 3, 'view_attendance_policy_details', NULL, 'SERVICE', NULL, 19, '{{#each data}}
+{{#if HolidayTypeName = "Public Holiday"}}
+       HolidayName: {{HolidayName}}
+       HolidayDate: {{HolidayDate}}
+  {{/if}}
+{{/each}}');
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(263, '2025-08-05 11:00:03.653', NULL, '2025-08-05 11:00:03.653', NULL, 3, 'attendance_policy', NULL, 'SERVICE', NULL, 19, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(82, '2025-07-29 00:54:33.805', NULL, '2025-07-29 00:54:33.805', NULL, 3, 'check_half_day_full_day_hours', NULL, 'SERVICE', NULL, 19, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(120, '2025-07-29 11:22:00.843', NULL, '2025-07-29 11:22:00.843', NULL, 3, 'raise_help_desk_query', NULL, 'SERVICE', NULL, 30, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(121, '2025-07-29 11:22:00.865', NULL, '2025-07-29 11:22:00.865', NULL, 3, 'submit_issue_report', NULL, 'SERVICE', NULL, 30, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(209, '2025-08-04 06:23:16.185', NULL, '2025-08-04 06:23:16.185', NULL, 3, 'revoke_approved_leave', NULL, 'SERVICE', NULL, 52, NULL);
+INSERT INTO uat.service_intend
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, client_id, intend_name, intend_description, intend_type, is_active, service_id, intent_response)
+VALUES(211, '2025-08-04 06:23:16.202', NULL, '2025-08-04 06:23:16.202', NULL, 3, 'confirm_leave_revoke', NULL, 'SERVICE', NULL, 52, NULL);
