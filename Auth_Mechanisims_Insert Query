@@ -1,0 +1,12 @@
+INSERT INTO uat.auth_mechanisms
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, authorization_type, client_id, identifier, is_active, parameters, service_id)
+VALUES(1, '2025-08-24 16:08:24.727', 'WEB', '2025-08-24 16:08:24.727', NULL, 1, 2, 'token_service', NULL, '[{"key":"FETCH_EVENT","value":"ON_EXPIRE"},{"key":"TOKEN","value":""},{"key":"SERVICE_ID","value":"94"}]', NULL);
+INSERT INTO uat.auth_mechanisms
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, authorization_type, client_id, identifier, is_active, parameters, service_id)
+VALUES(4, '2025-09-03 22:39:37.064', 'WEB', '2025-09-03 22:39:37.064', NULL, 1, 2, 'token_service1', NULL, '[{"key":"TOKEN","value":""},{"key":"FETCH_EVENT","value":"NEVER_EXPIRE"},{"key":"SERVICE_ID","value":"100"}]', NULL);
+INSERT INTO uat.auth_mechanisms
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, authorization_type, client_id, identifier, is_active, parameters, service_id)
+VALUES(6, '2025-09-06 17:43:52.811', 'WEB', '2025-09-06 17:43:52.811', NULL, 1, 4, 'Token_Auth', NULL, '[{"key":"SERVICE_ID","value":"104"},{"key":"FETCH_EVENT","value":"ON_EXPIRE"},{"key":"TOKEN","value":""}]', NULL);
+INSERT INTO uat.auth_mechanisms
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, authorization_type, client_id, identifier, is_active, parameters, service_id)
+VALUES(13, '2025-09-16 10:07:58.810', 'WEB', '2025-09-16 10:07:58.810', NULL, 1, 3, 'Token Generation', NULL, '[{"key":"SERVICE_ID","value":"105"},{"key":"FETCH_EVENT","value":"ON_EXPIRE"},{"key":"TOKEN","value":""}]', NULL);
