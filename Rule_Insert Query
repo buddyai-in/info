@@ -1,0 +1,12 @@
+INSERT INTO uat."rule"
+(id, condition_expression, created_timestamp, created_user_id, description, active, "name", priority, service_parameter_id, set_expression, source_alias, target_alias, target_class, target_field, updated_timestamp, updated_user_id, modified_timestamp)
+VALUES(252, 'test-condition', '2025-08-28 13:16:23.804', 'system', 'test-rule', true, 'test-rule-1', 0, 15, 'true', '{leaveType}', 'file_name', 'ServiceParameter', 'required', '2025-08-28 13:16:23.804', 'system', NULL);
+INSERT INTO uat."rule"
+(id, condition_expression, created_timestamp, created_user_id, description, active, "name", priority, service_parameter_id, set_expression, source_alias, target_alias, target_class, target_field, updated_timestamp, updated_user_id, modified_timestamp)
+VALUES(353, '(#LeaveType.value == "Sick Leave" AND #leave_duration.value == ''full day'')', '2025-08-29 12:49:24.149', 'system', 'Auto-generated rule for file_name', true, 'Rule for file_name - required - true', 1, 15, 'true', '{LeaveType,leave_duration}', 'file_name', 'ServiceParameter', 'required', '2025-08-29 12:49:24.149', 'system', NULL);
+INSERT INTO uat."rule"
+(id, condition_expression, created_timestamp, created_user_id, description, active, "name", priority, service_parameter_id, set_expression, source_alias, target_alias, target_class, target_field, updated_timestamp, updated_user_id, modified_timestamp)
+VALUES(352, '(#LeaveType.value == "Sick Leave" AND #leave_duration.value == ''full day'')', '2025-08-29 12:49:24.149', 'system', 'Auto-generated rule for file_name', true, 'Rule for file_name - required - true', 1, 15, 'true', '{LeaveType,leave_duration}', 'file_name', 'ServiceParameter', 'required', '2025-08-29 12:49:24.149', 'system', NULL);
+INSERT INTO uat."rule"
+(id, condition_expression, created_timestamp, created_user_id, description, active, "name", priority, service_parameter_id, set_expression, source_alias, target_alias, target_class, target_field, updated_timestamp, updated_user_id, modified_timestamp)
+VALUES(502, '#LeaveType.value == "Casual Leave"', '2025-09-05 03:29:30.867', 'system', 'Auto-generated rule for reason', true, 'Rule for reason - required - true', 1, 310, 'true', '{LeaveType}', 'reason', 'ServiceParameter', 'required', '2025-09-05 03:29:30.867', 'system', NULL);
