@@ -1,0 +1,489 @@
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(65, '2025-09-30 11:22:44.091', NULL, '2025-10-27 10:56:44.089', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Attendance_summary', false, false, false, false, '', 'POST', 'Attendance Summary', NULL, NULL, '{
+    "sCompanyCode": "",
+    "AccessToken": "",
+    "EmpCode": "",
+    "FromDate": "",
+    "ToDate": ""
+}', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch employee attendance details such as attendance days, Late mark days, Early Mark days, Regularised days, Week off days, Public holidays, present days, absent days, leave applied days based on From Date and End Date mentioned.', 'SD', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(60, '2025-09-30 11:22:44.112', NULL, '2025-10-27 10:56:44.089', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/mark_attandance', false, false, false, false, '', 'POST', 'Mark Attendance', NULL, NULL, '{
+    "AccessToken":"",
+    "sCompanyCode":"",
+    "DIRECTION":"",
+    "EmpCode":"",
+    "GPS_LOCATION":"",
+    "GPS_COORDINATE":""
+   }', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will allow the user to mark his attendance like Punch in and Punch out based on GPS location.', 'SD', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(26, '2025-09-30 11:22:44.117', NULL, '2025-10-27 10:56:44.096', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Leave_summery', false, false, false, false, '', 'POST', 'Leave Summary', NULL, NULL, '{
+    "AccessToken": "",
+    "EmpCode": "",
+    "sCompanyCode": ""
+}
+
+', 'application/json', NULL, ' {
+     "statusCode": 200,
+     "statusMsg": "",
+     "data": []
+  }
+', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will help to provide employees leave balance/summary which includes Entitled, Carry Forward, Pending for approval, Availed and Balance leaves. Leave Type can be Annual Leave/Privilege Leave, Sick Leave/Medical Leave, Casual Leave, Festival Leave, National Holiday, Optional Leave, Maternity Leave, Paternity Leave, Business Trip Leave, Accidental Leave, Exam Leave/Sabbatical Leave, PH/Public Holiday Leave, Election Leave, Compensatory/Comp Off Leave, LWP/Leave without Pay Leave, Unpaid Leave, Paid Leave, Earn Leave, Birthday Leave, Anniversary Leave, Compensation Leave. with respect to employee code.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(57, '2025-09-30 11:22:44.098', NULL, '2025-10-27 10:56:44.096', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/nature_help_desk', false, false, false, false, '', 'POST', 'Nature of Help Desk', NULL, NULL, '{ "sCompanyCode":"",
+ "AccessToken":"",
+ "EmpCode":"",
+ "category":"",
+ "scategory":""
+ }', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will provide the list of Nature mapped to specific category and sub category.', '', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(108, '2025-09-30 11:22:44.104', NULL, '2025-10-27 10:56:44.096', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Pending_approval_details', false, false, false, false, '', 'POST', 'Pending Approvals Details', NULL, NULL, ' {
+  "AccessToken":"",
+ "EmpCode":"",
+ "ApprovalType":"",
+ "sCompanyCode":""
+ }', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch the list of records pending for approval in user bucket based on Approval Type parameter.', 'SD', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(59, '2025-09-30 11:22:44.123', NULL, '2025-10-27 10:56:44.096', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_OT_Details', false, false, false, false, '', 'POST', 'OT Details', NULL, NULL, '{ "sCompanyCode":"",
+ "AccessToken":"",
+ "EmpCode":"",
+ "FromDate":"",
+ "ToDate":""
+ }', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch the OT or over time details of an employee like how many extra hours worked, OT Eligibility hours, How many OT hours are lapsed, how many OT hours are availed or used, Earned OT hours, How many OT hours are rejected, How many OT hours left or balance OT.', '', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(58, '2025-09-30 11:22:44.128', NULL, '2025-10-27 10:56:44.096', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_Attendance_ot_comp_off_policy', false, false, false, false, '', 'POST', 'Attendance Comp Off Policy', NULL, NULL, '{
+    "EmpCode": "",
+    "AccessToken": "",
+    "sCompanyCode": ""
+}
+', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch the details of Comp off configured for employee based on mapped attendance group. It will check Comp Off rule is configured for Public Holiday, Working Day, Weekly Off and if yes then To get comp off half day or full day how many hours need to work in weekly off, after working how many hours on Holiday half day or full day comp off is considered , Maximum comp off carry forwarded to next year, When comp off laps if not taken before days, Whether the Comp off details visible on Leave Application.', 'SD', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(32, '2025-09-30 11:22:44.138', NULL, '2025-10-27 10:56:44.096', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/PaySlip', false, false, false, false, '', 'POST', 'Download Payslip', NULL, NULL, '{
+    "sCompanyCode": "",
+    "AccessToken": "",
+    "EmpCode": "",
+    "PayslipPeriod": "",
+    "ReportName": ""
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "payslip_base64": [],
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'BASE64', NULL, NULL, 'NEW', 'This will fetch the Monthly, yearly Payslip or tax sheet of any employee.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(64, '2025-09-30 11:22:44.142', NULL, '2025-10-27 10:56:44.096', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/DocumentDownload', false, false, false, false, '', 'POST', 'Policy Download', NULL, NULL, '{ "sCompanyCode":"",
+ "AccessToken":"",
+ "EmpCode":"",
+ "FileName":""
+ }', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": ""
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'BASE64', NULL, NULL, 'NEW', 'This request is used to download the policy based on the Policy name specified.', 'SD', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(56, '2025-09-30 11:22:44.133', NULL, '2025-10-27 10:56:44.096', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/subCategory_help_desk', false, false, false, false, '', 'POST', 'Sub-Categories of Help Desk', NULL, NULL, ' { "sCompanyCode":"",
+ "AccessToken":"",
+ "EmpCode":"",
+ "category":""
+ }', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will provide the list of Sub Categories mapped under specific Category.', '', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(22, '2025-09-30 11:22:44.167', NULL, '2025-10-27 10:56:44.096', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_Policy_List', false, false, false, false, '', 'POST', 'Policy list', NULL, NULL, '{
+    "sCompanyCode": "",
+    "AccessToken": "",
+    "EmpCode": "",
+    "PolicyName": " "
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This request will display all the policies which are uploaded in the system', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(8, '2025-09-30 11:22:44.152', NULL, '2025-10-27 10:56:44.096', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_anniversary', false, false, false, false, '', 'POST', 'Work Anniversary of Employees', NULL, NULL, '{ 
+ "AccessToken":"",
+ "EmpCode":"",
+ "sCompanyCode":""
+ }', 'application/json', NULL, '{ "statusCode": 200,
+ "statusMsg": "",
+ "data": []
+ }', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch the list of employees who has Work Anniversary on current date.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(55, '2025-09-30 11:22:44.158', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/category_help_desk', false, false, false, false, '', 'POST', 'Categories of Help Desk', NULL, NULL, ' { "sCompanyCode":"",
+ "AccessToken":"",
+ "EmpCode":""
+ }', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will provide the list of categories configured in Help Desk.', 'SD', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(51, '2025-09-30 11:22:44.146', NULL, '2025-10-27 10:56:44.097', NULL, 1, 12, NULL, NULL, '{}', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Pending_approval_count_summary', false, false, false, false, '', 'POST', 'Pending Approvals Summary', NULL, NULL, '{
+    "AccessToken": "",
+    "EmpCode": "",
+    "sCompanyCode": ""
+}', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will display the module wise approval count or summary which are pending in Approver''s bucket.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(20, '2025-09-30 11:22:44.170', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Export_Report', false, false, false, false, '', 'POST', 'Export Reports', NULL, NULL, '{
+    "sCompanyCode": "",
+    "AccessToken": "",
+    "EmpCode": "",
+    "RoleID": "",
+    "ReportName": ""
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": ""
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'CSV', NULL, NULL, 'NEW', 'This will display the specified reports and user can download it', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(19, '2025-09-30 11:22:44.148', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_Attendance_policy', false, false, false, false, '', 'POST', 'Attendance Policy', NULL, NULL, '{
+    "EmpCode": "",
+    "AccessToken": "",
+    "sCompanyCode": ""
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch the details of attendance policy [Includes for how many hours half day/full day applies, present hours, late mark hours, early going hours, grace period, weekly off, max regularisation allowed, number of early going and late coming, continues work shift allowed or not, etc] configured for employee based on attendance group.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(30, '2025-09-30 11:22:44.188', NULL, '2025-10-27 10:56:44.097', NULL, 1, 12, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Help_Desk', false, false, false, false, '', 'POST', 'Query Raising in Help Desk', NULL, NULL, '{
+    "sCompanyCode":"",
+    "AccessToken": "",
+    "EmpCode": "",
+    "category": "",
+    "scategory": "",
+    "nature": "",
+    "priority": "",
+    "description": ""
+}', 'application/json', NULL, '{ "statusCode": "", 
+"statusMsg": "",
+"Data": [] 
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'Help_Desk_Query_Raise', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(36, '2025-09-30 11:22:44.191', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_Holiday_List', false, false, false, false, '', 'POST', 'Holiday List', NULL, NULL, '{
+    "EmpCode": "",
+    "AccessToken": "",
+    "sCompanyCode": ""
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will display the branch wise holiday list of the employee. Employee might ask for specific months holiday list', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(53, '2025-09-30 11:22:44.209', NULL, '2025-10-27 10:56:44.097', NULL, 1, 12, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_help_desk_query', false, false, false, false, '', 'POST', 'List of All Queries', NULL, NULL, '{ "sCompanyCode":"",
+ "AccessToken":"",
+ "EmpCode":"",
+ "RoleID":"",
+ "QueryCode":"",
+ "Status":""
+ }', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This request is used to get the list of query raised , inlcuding who is the handler [Resolver], what is the TAT period,if its esclated to whom it got escalated, status of query like open, closed, Re-open, In-progress, who is at escalation level 1 and 2, created date of query.', 'List all queries', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(48, '2025-09-30 11:22:44.199', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_Leave_Application_policy', false, false, false, false, '', 'POST', 'Leave Application Policy', NULL, NULL, '{
+    "EmpCode": "",
+    "AccessToken": "",
+    "sCompanyCode": "",
+    "Leave_type": ""
+}', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch all the policies related to leave application.This will fetch the details of leave policy configured for an employee based on their assigned leave group it provides information about specific leave type including whether half day leaves are allowed and if leaves can be carried forward to the next year. It also outlines the rules for future dated and back dated leave applications including the allowance for back dated or past dated revokation. This will also specify min and max number of leave days that can be applied in a single request, whether the sandwich rule is applicable and if the leaves can be clubbed with other leave types. These will also provide the maximum number of leaves that can be availed in a month or year or over the emplyees tenure. It will also provide information about how many days in advance an employee can apply these leaves.', '', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(105, '2025-09-30 11:22:44.202', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '{}', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Generate_Token', false, true, false, false, '', 'POST', 'Token generation', NULL, NULL, '{
+    "sCompanyCode": "",
+    "UserName": "",
+    "SecretKey": ""
+}
+
+', 'application/json', NULL, ' {
+     "statusCode": 200,
+     "TokenId": ""
+       }
+', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will help to generate the token', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(28, '2025-09-30 11:22:44.217', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_My_team', false, false, false, false, '', 'POST', 'My Team Details', NULL, NULL, '{ 
+"AccessToken":"",
+ "EmpCode":"",
+ "sCompanyCode":""
+ }
+', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch details which includes Emp code, emp name, designation of employees mapped under any Reporting Manager, Skip level manager or Reporting MD.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(49, '2025-09-30 11:22:44.225', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_leave_configuration_policy', false, false, false, false, '', 'POST', 'Leave Accrual Policy', NULL, NULL, '{
+    "EmpCode": "",
+    "AccessToken": "",
+    "sCompanyCode": "",
+    "Leave_type": ""
+}', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch the details of leave accrual policy whether this leave type accrued in advance or post, how many days are entitled or accrued in quarterly or monthly or yearly? Whether it can be carried forward leaves, if yes then how many leaves can be carried forward, whether this leave applies to probation or confirmed employees, whether it can be encashed, if yes then how many leaves can be encashed etc.', '', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(79, '2025-09-30 11:22:44.212', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/emp_leave_apply', false, false, false, false, '', 'POST', 'Leave Application', NULL, NULL, '{
+    "EmpCode": "",
+    "sCompanyCode": "",
+    "AccessToken": "",
+    "FromDate": "",
+    "ToDate": "",
+    "LeaveType": "",
+    "leave_duration": "",
+    "file_name":"",
+    "file_bucket_name":"",
+    "reason":"",
+    "address":""
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": ""
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will allow user to apply leave.', 'Apply Leave', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(101, '2025-09-30 11:22:44.220', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '{}', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/DocumentUpload', false, false, false, false, '', 'POST', 'File Upload', NULL, NULL, '{}', 'multipart/form-data', NULL, '{
+    "statusCode": 200,
+    "msg": "",
+    "data": {
+    }
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'upload file', 'default', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(35, '2025-09-30 11:22:44.222', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Attendence_Regularization', false, false, false, false, '', 'POST', 'Attendance Regularization', NULL, NULL, '{
+    "AccessToken":"",
+    "EmpCode": "",
+    "AttendenceDate": "",
+    "InTime": "",
+    "OutTime": "",
+    "Reason": "",
+    "Remarks":"",
+    "sCompanyCode":"" 
+}', 'application/json', NULL, '{ "statusCode": "200",
+ "statusMsg": "Record Inserted Successfully"
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will allow user to regularize/update the employee Attendance by taking Employee Code, Attendance Date, In-Out timings, Regularization Reason along with proper remark in case employee is not able to complete his/her shift timings due to some reasons.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(24, '2025-09-30 11:22:44.228', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_OT_balance', false, false, false, false, '', 'POST', 'OT Balance', NULL, NULL, '{
+    "EmpCode": "",
+    "AccessToken": "",
+    "sCompanyCode": ""
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This request will fetch the details of OT balance.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(52, '2025-09-30 11:22:44.234', NULL, '2025-10-27 10:56:44.097', NULL, 1, 12, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Leave_revoke_request_Date', false, false, false, false, '', 'POST', 'Leave Revoke', NULL, NULL, '{
+    "EmpCode": "",
+    "AccessToken": "",
+    "sCompanyCode": "",
+    "FromDate": "",
+    "ToDate": ""
+}', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This request will revoke the approved leave based on mentioned date.', 'SD', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(33, '2025-09-30 11:22:44.237', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_Leave_request_status', false, false, false, false, '', 'POST', 'Leave Status', NULL, NULL, '{
+     "AccessToken":"",
+    "EmpCode":"",
+    "sCompanyCode":""
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch leaves list with details with different status like approve , rejected , revoke and many other.Leaves of following status will be inlcuded Leave Type, Applied Date, Start Date, End Date, Applied Days, Leave Reason, Leave Status for example (Revoke,Approved,Submitted, RM Approved, RM Rejected, Revoke Submitted, Revoke Approved, Revoke Rejected). Leave Type can be Annual Leave,Privilege Leave, Sick Leave,Medical Leave, Casual Leave, Festival Leave, National Holiday, Optional Leave, Maternity Leave, Paternity Leave, Business Trip Leave, Accidental Leave, Exam Leave/Sabbatical Leave, PH/Public Holiday Leave, Election Leave, Compensatory/Comp Off Leave, LWP/Leave without Pay Leave, Unpaid Leave, Paid Leave, Earn Leave, Birthday Leave, Anniversary Leave, Compensation Leave', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(78, '2025-09-30 11:22:44.231', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '{}', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Approved_name_based_pending_approval', false, false, false, false, '', 'POST', 'Name Based Approval', NULL, NULL, '{
+    "sCompanyCode": "",
+    "AccessToken": "",
+    "EmpCode": "",
+    "ApprovalType": "",
+    "Action": "",
+    "Remark": "",
+    "EmployeeName": "",
+    "EmployeeCode":"",
+    "Transaction_id":""
+}', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will allow approver to approve or reject pending request based on employee name', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(90, '2025-09-30 11:22:44.240', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_birth_date', false, false, false, false, '', 'POST', 'Employee Birthday', NULL, NULL, '{ 
+ "AccessToken":"",
+ "EmpCode":"",
+ "sCompanyCode":""
+ }', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch the list of employees who has Birthday on current date.', 'Birthday', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(98, '2025-09-30 11:22:44.242', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, 'Link:$.videos[*].video_files[?(@.quality == ''uhd'')].link;Caption:;', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/search', false, false, false, false, '', 'GET', 'Video download', NULL, NULL, '{}', 'application/json', NULL, '{
+    "page": 1,
+    "per_page": 1,
+    "videos": [
+        {
+            "id": 0,
+            "width": 3840,
+            "height": 2160,
+            "duration": 33,
+            "full_res": null,
+            "tags": [],
+            "url": "",
+            "image": "",
+            "avg_color": null,
+            "user": {
+                "id": 0,
+                "name": "",
+                "url": ""
+            },
+            "video_files": [
+                {
+                    "id": 9326528,
+                    "quality": "uhd",
+                    "file_type": "video/mp4",
+                    "width": 0,
+                    "height": 2160,
+                    "fps": 0,
+                    "link": "",
+                    "size": 0
+                },
+            ],
+            "video_pictures": [
+                {
+                    "id": 815098,
+                    "nr": 0,
+                    "picture": "0"
+                },
+            ]
+        }
+    ],
+    "total_results": 8000,
+    "next_page": "0",
+    "url": "0"
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'VIDEO', NULL, NULL, 'NEW', 'This will help to search video based on the name', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(63, '2025-09-30 11:22:44.245', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_Attendance_ot_policy', false, false, false, false, '', 'POST', 'Attendance OT Policy', NULL, NULL, '{
+    "EmpCode": "",
+    "AccessToken":"",
+    "sCompanyCode": ""
+}', 'application/json', NULL, '{
+    "statusCode":200 ,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch the details of Over Time configured for employee based on mapped attendance group. [Like Opening balance, Laps hours days, after how many days comp off laps, for how many hours comp off half day/full day considered, max hrs in a day, how many back dated hours considered, how many Pre/Post request days allowed, Min and Max extra hrs allowed, net OT balance, auto encash checked, OT utilisation req days].', '', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(6, '2025-09-30 11:22:44.248', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/roster_view_all', false, false, false, false, '', 'POST', 'Employee Roster View', NULL, NULL, ' {
+     "AccessToken":"",
+    "EmpCode":"",
+    "FromDate": "",
+    "ToDate": "",
+    "sCompanyCode":""
+}', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will fetch employees daily, weekly, monthly, yearly roster or shift details, which means user can view his shift name with shift timings', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(89, '2025-09-30 11:22:44.251', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Re_open_query', false, false, false, false, '', 'POST', 'Reopen Closed Query', NULL, NULL, '{ "sCompanyCode":"",
+ "AccessToken":"",
+ "EmpCode":"",
+ "RoleID":"",
+ "QueryCode":"",
+ "comment":""
+ }', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This request is used to Re-open the closed query based on the query code given', 'Reopen Query', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(13, '2025-09-30 11:22:44.254', NULL, '2025-10-27 10:56:44.097', NULL, 1, NULL, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/Get_shift_type', false, false, false, false, '', 'POST', 'Shift Type Details', NULL, NULL, ' { "sCompanyCode":"",
+ "AccessToken":"",
+ "EmpCode":""
+ }', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'This will provide list of all type of shift defined in shift type master. This include Shift Type Code, Shift Type Name, In Time, Out Time, Total Time, Week off Shift, Special Shift, Breakshift In Time, Breakshift Out Time mapped to particular shift type.', 'sd', NULL, NULL, NULL, false);
+INSERT INTO uat.service
+(id, created_timestamp, created_user_id, modified_timestamp, updated_user_id, application_id, auth_id, auth_mechanism, auth_type, bot_response_template, client_id, deprecation_date, endpoint, is_active, is_auth_service, is_deprecated, is_public, keyword, "method", service_name, parameter_count, replacement_service_id, request_schema, request_type, response_for_invalid_request, response_schema, response_type, service_category, service_color, service_description, service_documentation, service_icon, service_order, service_specification, service_tags, service_type, service_url, service_version, status, summary, system_prompt, call_back, request_id, response_handler, is_cacheable)
+VALUES(29, '2025-09-30 11:22:44.257', NULL, '2025-10-27 10:56:44.097', NULL, 1, 13, NULL, NULL, '', 3, NULL, 'https://uat-api.osourceglobal.com/INT_UAT_ZENX_LNA/self_profile', false, false, false, false, '', 'POST', 'Self Profile Detail', NULL, NULL, '{ 
+ "AccessToken":"",
+ "EmpCode":"",
+ "sCompanyCode":""
+ }
+', 'application/json', NULL, '{
+    "statusCode": 200,
+    "statusMsg": "",
+    "data": []
+}', 'application/json', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'TEXT', NULL, NULL, 'NEW', 'Tell People who they are include name.This will fetch employees profile details like Employee Name, Designation Name, Division, Department, branch, Reporting Manager, Skip Level Manager, Reporting MD, Grade, Band, Cost Center, Movement Type, Sub Department, Join Date, Company Name', 'sd', NULL, NULL, NULL, true);
